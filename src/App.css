@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.App{
+    height: 100vh;
+    background-color: rgb(244, 251, 251);
+}
+
+.App h1{
+    text-align: center;
+}
+
+.App .link-home .fa-solid{
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.App .link-home .fa-solid:hover{
+    background-color: rgb(32, 4, 58);
+    color: white;
+}
+
+.App .home{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.App .link-home{
+    text-align: center;
+    background-color: rgb(107, 179, 179);
+}
+
+.App .name-character{
+    width: 97%;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.App .name-character li{
+    list-style: none;
+}
+
+.App .character-per-id{
+    text-align: center;
+    background-color: rgb(209, 233, 240);
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 8px;
+    color: black;
+}
+
+.App .character-per-id p{
+    margin: 3px;
+}
+
+.App .character-per-id .fa-circle-left{
+    padding: 7px;
+    font-size: 40px;
+}
