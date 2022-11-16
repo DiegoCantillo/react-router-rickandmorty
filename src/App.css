@@ -5,7 +5,7 @@ body{
 }
 
 .App{
-    height: 100vh;
+    height: 93vh;
     background-color: rgb(244, 251, 251);
 }
 
@@ -69,4 +69,10 @@ body{
 .App .character-per-id .fa-circle-left{
     padding: 7px;
     font-size: 40px;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color:  rgb(204, 230, 230);
 }

@@ -21,6 +21,9 @@ function App() {
             <Route path='character/:id' element={<CharacterPerId/>}/>
           </Routes>
         </div>
+        <footer>
+            By: Luis Diego Cantillo Meza
+        </footer>
       </HashRouter>
   )
 }
